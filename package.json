@@ -22,12 +22,10 @@
     "stepDefinitions": "cypress/e2e/common/**/*.js",
     "json": {
       "enabled": true,
-      "formatter": ".bin/cucumber-json-formatter",
-      "output": "cypress/report/json/cucumber-report.json"
+      "formatter": ".bin/cucumber-json-formatter"
     },
     "messages": {
-      "enabled": true,
-      "output": "cypress/report/"
+      "enabled": true
     },
     "html": {
       "enabled": true
